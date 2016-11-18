@@ -22622,13 +22622,12 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="840"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
   />
 
   <apn carrier="IMS"
@@ -22637,7 +22636,7 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
   <apn carrier="Videocon MMS"
@@ -22988,14 +22987,12 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="854"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23004,17 +23001,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="855"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23023,17 +23018,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="856"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23042,17 +23035,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="857"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23061,17 +23052,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="858"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23080,17 +23069,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="859"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23099,17 +23086,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="860"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23118,17 +23103,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="861"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23137,17 +23120,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="862"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23156,17 +23137,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="863"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23175,17 +23154,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="864"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23194,17 +23171,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="865"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23213,17 +23188,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="866"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23232,17 +23205,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="867"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23251,17 +23222,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="868"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23270,17 +23239,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="869"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23289,17 +23256,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="870"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23308,17 +23273,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="871"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23327,17 +23290,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="872"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23346,17 +23307,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="873"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23365,17 +23324,15 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="874"
       apn="jionet"
       type="default,supl"
       protocol="IPV4V6"
-      roaming_protocol="IP"
-      carrier_enabled="true"
   />
 
   <apn carrier="IMS"
@@ -23384,7 +23341,7 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      user_visible="false"
   />
 
   <apn carrier="Uninor Internet"
