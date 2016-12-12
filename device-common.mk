@@ -467,3 +467,8 @@ $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 # Google Assistant
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
+
+# These modules won't sanitize correctly with newer clang.
+$(call add-product-sanitizer-module-config,fec,never)
+$(call add-product-sanitizer-module-config,libfec_rs_host,never)
+$(call add-product-sanitizer-module-config,libfec_host,never)
