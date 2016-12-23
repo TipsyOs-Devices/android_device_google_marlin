@@ -449,3 +449,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Workaround for audio glitches
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.adm.buffering.ms=3
+
+# Build gapps for now
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
