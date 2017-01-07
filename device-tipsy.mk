@@ -8,6 +8,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Snap
 PRODUCT_PACKAGES += Snap
 
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-tipsy
 
