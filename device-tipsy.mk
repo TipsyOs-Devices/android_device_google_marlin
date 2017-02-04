@@ -6,7 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-carbon
+DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-tipsy
 
 # Tethering
 PRODUCT_PROPERTY_OVERRIDES += \
