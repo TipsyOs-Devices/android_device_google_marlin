@@ -5,6 +5,9 @@ PRODUCT_PACKAGES += libion
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc
 
+# Snap
+PRODUCT_PACKAGES += Snap
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-tipsy
 

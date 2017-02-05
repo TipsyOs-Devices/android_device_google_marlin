@@ -3,8 +3,8 @@
 # Product-specific compile-time definitions
 #
 
-# Allow Carbon config to override others
--include device/google/marlin/marlin/BoardConfigCarbon.mk
+# Allow Tipsy config to override others
+-include device/google/marlin/marlin/BoardConfigTipsy.mk
 
 TARGET_BOARD_PLATFORM := msm8996
 TARGET_BOOTLOADER_BOARD_NAME := marlin
