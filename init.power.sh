@@ -23,14 +23,14 @@ write /sys/devices/system/cpu/cpu2/online 1
 write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
 write /sys/devices/system/cpu/cpu0/cpufreq/interactive/use_sched_load 1
 write /sys/devices/system/cpu/cpu0/cpufreq/interactive/use_migration_notif 1
-write /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay 19000
-write /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load 90
+write /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay 20000
+write /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load 99
 write /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_rate 20000
 write /sys/devices/system/cpu/cpu0/cpufreq/interactive/hispeed_freq 960000
-write /sys/devices/system/cpu/cpu0/cpufreq/interactive/io_is_busy 1
-write /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads 80
-write /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time 19000
-write /sys/devices/system/cpu/cpu0/cpufreq/interactive/max_freq_hysteresis 79000
+write /sys/devices/system/cpu/cpu0/cpufreq/interactive/io_is_busy 0
+write /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads 90
+write /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time 20000
+write /sys/devices/system/cpu/cpu0/cpufreq/interactive/max_freq_hysteresis 80000
 write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 300000
 write /sys/devices/system/cpu/cpu0/cpufreq/interactive/ignore_hispeed_on_notif 0
 
@@ -40,16 +40,16 @@ write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 1593600
 write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor interactive
 write /sys/devices/system/cpu/cpu2/cpufreq/interactive/use_sched_load 1
 write /sys/devices/system/cpu/cpu2/cpufreq/interactive/use_migration_notif 1
-write /sys/devices/system/cpu/cpu2/cpufreq/interactive/above_hispeed_delay "19000 1400000:39000 1700000:39000"
+write /sys/devices/system/cpu/cpu2/cpufreq/interactive/above_hispeed_delay 20000
 
-write /sys/devices/system/cpu/cpu2/cpufreq/interactive/go_hispeed_load 90
+write /sys/devices/system/cpu/cpu2/cpufreq/interactive/go_hispeed_load 99
 write /sys/devices/system/cpu/cpu2/cpufreq/interactive/timer_rate 20000
 write /sys/devices/system/cpu/cpu2/cpufreq/interactive/hispeed_freq 1248000
-write /sys/devices/system/cpu/cpu2/cpufreq/interactive/io_is_busy 1
-write /sys/devices/system/cpu/cpu2/cpufreq/interactive/target_loads "85 1500000:90 1800000:95"
+write /sys/devices/system/cpu/cpu2/cpufreq/interactive/io_is_busy 0
+write /sys/devices/system/cpu/cpu2/cpufreq/interactive/target_loads 90
 
-write /sys/devices/system/cpu/cpu2/cpufreq/interactive/min_sample_time 19000
-write /sys/devices/system/cpu/cpu2/cpufreq/interactive/max_freq_hysteresis 39000
+write /sys/devices/system/cpu/cpu2/cpufreq/interactive/min_sample_time 20000
+write /sys/devices/system/cpu/cpu2/cpufreq/interactive/max_freq_hysteresis 40000
 write /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 300000
 write /sys/devices/system/cpu/cpu2/cpufreq/interactive/ignore_hispeed_on_notif 0
 
@@ -62,10 +62,10 @@ write /sys/module/msm_thermal/core_control/enabled 1
 
 # input boost configuration
 write /sys/module/cpu_boost/parameters/input_boost_freq "0:1324800 2:1324800"
-write /sys/module/cpu_boost/parameters/input_boost_ms 40
+write /sys/module/cpu_boost/parameters/input_boost_ms 250
 
 # Setting b.L scheduler parameters
-write /proc/sys/kernel/sched_boost 0
+write /proc/sys/kernel/sched_boost 2
 write /proc/sys/kernel/sched_migration_fixup 1
 write /proc/sys/kernel/sched_upmigrate 95
 write /proc/sys/kernel/sched_downmigrate 90
