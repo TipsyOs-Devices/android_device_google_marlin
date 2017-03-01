@@ -414,6 +414,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/marlin/default-permissions.xml:system/etc/default-permissions/default-permissions.xml
 
+# Pixel Experience
+PRODUCT_COPY_FILES += \
+  device/google/marlin/nexus.xml:system/etc/sysconfig/nexus.xml
+
 # A/B OTA dexopt package
 PRODUCT_PACKAGES += otapreopt_script
 
