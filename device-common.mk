@@ -452,3 +452,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Build gapps for now
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
+# Google Assistant
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true
