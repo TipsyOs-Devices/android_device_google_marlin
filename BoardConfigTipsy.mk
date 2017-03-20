@@ -18,4 +18,7 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 -include vendor/google/marlin/BoardConfigVendor.mk
