@@ -1,8 +1,8 @@
 [
   {
-    "repository": "hellsgod/hells-Core-PXL",
+    "repository": "f100cleveland/fuckery-Marlin",
     "target_path": "kernel/google/marlin",
-    "branch": "n-mr2-preview-1"
+    "branch": "n7x"
   },
   {
    "repository": "obsd39/proprietary_vendor_google",
