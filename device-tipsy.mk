@@ -6,7 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc
 
 # Snap
-PRODUCT_PACKAGES += Snap
+#PRODUCT_PACKAGES += Snap
 
 # IMS
 PRODUCT_PACKAGES += \
