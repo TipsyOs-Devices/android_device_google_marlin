@@ -26,3 +26,10 @@ TARGET_USE_SDCLANG := true
 BOARD_USES_QC_TIME_SERVICES := true
 
 -include vendor/google/marlin/BoardConfigVendor.mk
+
+#Opts
+STRICT_ALIASING := true
+GRAPHITE_OPTS := true
+POLLY_OPTS := true
+LOCAL_CLANG := true
+LOCAL_CLANG_LTO := true
