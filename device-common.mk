@@ -456,6 +456,27 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc_vds=1
 
+# Camera
+PRODUCT_PACKAGES += libion
+
+# Fingerprint sensor type
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.fingerprint=fpc
+
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-tipsy
+
+# Tethering
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
+
+# Update engine
+PRODUCT_PACKAGES += brillo_update_payload
+
 # b/32109329
 # Workaround for audio glitches
 PRODUCT_PROPERTY_OVERRIDES += \
