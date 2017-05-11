@@ -88,6 +88,10 @@ ro.qualcomm.cabl=2
 # System prop to turn on CdmaLTEPhone always
 telephony.lteOnCdmaDevice=1
 
+# IMS
+persist.volte_enabled_by_hw=1
+persist.data.iwlan.enable=true
+
 #Simulate sdcard on /data/media
 #
 persist.fuse_sdcard=true
