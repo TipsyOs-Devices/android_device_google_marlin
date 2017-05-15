@@ -76,3 +76,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vr.marlin
 
+# Root Method
+DEFAULT_ROOT_METHOD := rootless
+
