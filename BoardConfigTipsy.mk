@@ -7,7 +7,7 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 WITH_DEXPREOPT := false
 
 # Kernel
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-6.3/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-8.0/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_COMPILE_WITH_MSM_KERNEL := true
@@ -35,8 +35,4 @@ BOARD_USES_QC_TIME_SERVICES := true
 -include vendor/google/marlin/BoardConfigVendor.mk
 
 #Opts
-STRICT_ALIASING := true
-GRAPHITE_OPTS := true
-POLLY_OPTS := true
-LOCAL_CLANG := true
-LOCAL_CLANG_LTO := true
+my_clang := true
