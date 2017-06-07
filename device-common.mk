@@ -380,6 +380,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Preloading QPerformance jar to ensure faster perflocks in Boost Framework
+PRODUCT_BOOT_JARS += QPerformance
+
 # Storage: for factory reset protection feature
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/624000.ufshc/by-name/frp
