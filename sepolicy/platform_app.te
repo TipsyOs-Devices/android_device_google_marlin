@@ -9,3 +9,4 @@ userdebug_or_eng(`
 
 allow platform_app perfd_data_file:dir search;
 allow platform_app app_data_file:file execute;
+allow platform_app nfc_service:service_manager find;
